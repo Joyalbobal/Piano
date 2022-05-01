@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-image: url("https://raw.githubusercontent.com/JS-Beginners/javascript30-drumkit/master/img/b9r5sEL.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+button {
+  text-align: center;
+  width: 90px;
+  height: 70px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 0;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: "Montserrat", sans-serif;
+  border-radius: 5px;
+  border: 3px solid black;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button span {
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 3px;
+  font-weight: bold;
+  color: #ffc400cc;
+}
